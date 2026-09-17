@@ -1,521 +1,608 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pakki Nithish — Full Stack Developer</title>
-<meta name="description" content="Pakki Nithish is a full-stack developer building modern web applications with React, Next.js, FastAPI, Node.js, and PostgreSQL with Generative AI integration.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=3">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pakki Nithish — Full-Stack Software Engineer | AI Applications</title>
+  <meta name="description"
+    content="Pakki Nithish is a Full-Stack Software Engineer specializing in AI-powered web applications using Next.js, FastAPI, PostgreSQL, Azure AI Foundry, and intelligent document processing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
+
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<!-- ============ NAV ============ -->
-<header class="site-nav">
-  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
-  <div class="wrap">
-    <a href="#home" class="brand">Pakki Nithish<span>.</span></a>
-    <nav aria-label="Primary">
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#summary" data-nav>Summary</a></li>
-        <li><a href="#experience" data-nav>Experience</a></li>
-        <li><a href="#skills" data-nav>Skills</a></li>
-        <li><a href="#projects" data-nav>Projects</a></li>
-        <li><a href="#education" data-nav>Education</a></li>
-        <li><a href="#certifications" data-nav>Certifications</a></li>
-        <li><a href="#contact" data-nav>Contact</a></li>
-      </ul>
-      <span class="nav-indicator" id="navIndicator"></span>
-    </nav>
-    <div class="nav-actions">
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
-        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
-        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-      </button>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><span></span></button>
-    </div>
-  </div>
-</header>
-
-<main id="main">
-
-  <!-- ============ HERO ============ -->
-  <section class="hero" id="home" data-section>
+  <!-- ============ NAV ============ -->
+  <header class="site-nav">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
     <div class="wrap">
-      <div class="hero-copy">
-        <p class="hero-eyebrow" id="heroEyebrow"><span class="dot" aria-hidden="true"></span>Hyderabad, Telangana, India — open to full stack developer roles</p>
-        <h1 id="heroH1"><span class="hero-word">Pakki</span> <span class="hero-word">Nithish</span><br><span class="hero-word">Full</span> <span class="hero-word">Stack</span> <span class="hero-word">Developer</span></h1>
-        <p class="lede" id="heroLede">Electronics and Communication Engineering student experienced in building scalable applications using React.js, Node.js, Next.js, FastAPI, and PostgreSQL, with hands-on experience integrating Generative AI and Azure AI Foundry models into production-oriented applications.</p>
-        <div class="hero-ctas" id="heroCtas">
-          <a href="#projects" class="btn btn-primary">View my work</a>
-          <a href="Pakki_Nithish_Resume.pdf" class="btn btn-ghost" download>Download résumé</a>
-        </div>
-        <div class="hero-meta" id="heroMeta">
-          <div><strong>K L University</strong>B.Tech ECE · CGPA 9.44/10</div>
-          <div><strong>iSpatial Techno Solutions</strong>Full Stack Developer Intern</div>
-          <div><strong>3 shipped projects</strong>Live demos + source on GitHub</div>
-        </div>
-      </div>
-      <div class="hero-visual" id="heroVisual" aria-hidden="true">
-        <!-- three.js canvas is injected here by script.js; fallback SVG below -->
-        <div class="fallback-img" id="heroFallback">
-          <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <radialGradient id="g1" cx="50%" cy="50%" r="60%">
-                <stop offset="0%" stop-color="#3DD6F5" stop-opacity="0.18"/>
-                <stop offset="100%" stop-color="#3DD6F5" stop-opacity="0"/>
-              </radialGradient>
-            </defs>
-            <rect width="480" height="480" fill="url(#g1)"/>
-            <g stroke="#3DD6F5" stroke-opacity="0.55" stroke-width="1">
-              <line x1="120" y1="140" x2="240" y2="90"/>
-              <line x1="240" y1="90" x2="360" y2="150"/>
-              <line x1="120" y1="140" x2="150" y2="270"/>
-              <line x1="240" y1="90" x2="230" y2="240"/>
-              <line x1="360" y1="150" x2="330" y2="280"/>
-              <line x1="150" y1="270" x2="230" y2="240"/>
-              <line x1="230" y1="240" x2="330" y2="280"/>
-              <line x1="150" y1="270" x2="200" y2="380"/>
-              <line x1="330" y1="280" x2="290" y2="390"/>
-              <line x1="200" y1="380" x2="290" y2="390"/>
-            </g>
-            <g fill="#5B8DEF">
-              <circle cx="120" cy="140" r="5"/>
-              <circle cx="240" cy="90" r="6"/>
-              <circle cx="360" cy="150" r="5"/>
-              <circle cx="150" cy="270" r="5"/>
-              <circle cx="230" cy="240" r="7"/>
-              <circle cx="330" cy="280" r="5"/>
-              <circle cx="200" cy="380" r="5"/>
-              <circle cx="290" cy="390" r="5"/>
-            </g>
-          </svg>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 1. SUMMARY ============ -->
-  <section id="summary" data-section>
-    <div class="wrap about-grid">
-      <div class="avatar-block reveal">
-        <div class="avatar" id="avatarBox">
-          <img src="headshot.jpg" alt="Portrait of Pakki Nithish" width="578" height="767" loading="lazy">
-        </div>
-      </div>
-      <div>
-        <p class="eyebrow">Summary</p>
-        <h2 style="margin-bottom:var(--space-3);">Professional Summary</h2>
-        <div class="about-copy reveal">
-          <p>Electronics and Communication Engineering student with strong foundations in Data Structures, Algorithms, Object-Oriented Programming, and Software Development. Experienced in building scalable applications using React.js, Node.js, Next.js, FastAPI, and PostgreSQL, with hands-on experience integrating Generative AI and Azure AI Foundry models into production-oriented applications. Passionate about solving complex engineering problems and building efficient AI-powered software systems.</p>
-        </div>
-        <ul class="approach-list reveal">
-          <li>
-            <div>
-              <h4>Full-Stack Architecture</h4>
-              <p>Comfortable owning software from database schema design up to responsive client interfaces using React.js, Next.js, Node.js, FastAPI, and PostgreSQL.</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <h4>Generative AI &amp; Cloud Integration</h4>
-              <p>Practical experience deploying Azure AI Foundry models, building semantic search copilots with LLMs and OpenSearch for real-world automation.</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <h4>Engineering Fundamentals</h4>
-              <p>Grounding in Data Structures, Algorithms, and Object-Oriented Programming applied to structured, maintainable, and reliable production code.</p>
-            </div>
-          </li>
+      <a href="#home" class="brand">Pakki Nithish<span>.</span></a>
+      <nav aria-label="Primary">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#summary" data-nav>Summary</a></li>
+          <li><a href="#experience" data-nav>Experience</a></li>
+          <li><a href="#skills" data-nav>Skills</a></li>
+          <li><a href="#projects" data-nav>Projects</a></li>
+          <li><a href="#education" data-nav>Education</a></li>
+          <li><a href="#certifications" data-nav>Certifications</a></li>
+          <li><a href="#contact" data-nav>Contact</a></li>
         </ul>
+        <span class="nav-indicator" id="navIndicator"></span>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" />
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round">
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+          </svg>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"
+          aria-controls="navLinks"><span></span></button>
       </div>
     </div>
-  </section>
+  </header>
 
-  <!-- ============ 2. PROFESSIONAL EXPERIENCE ============ -->
-  <section id="experience" data-section>
-    <div class="wrap">
-      <div class="section-head reveal">
-        <p class="eyebrow">Experience</p>
-        <h2>Professional Experience</h2>
-        <p>Production engineering work, real-world deployments, and company impact.</p>
-      </div>
-      <div class="timeline" id="expTimeline">
-        <div class="t-item">
-          <div>
-            <p class="t-date">05/2026</p>
-            <p class="t-org">iSpatial Techno Solutions · Hyderabad</p>
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" data-section>
+      <div class="wrap">
+        <div class="hero-copy">
+
+          <p class="hero-eyebrow" id="heroEyebrow">
+            <span class="dot" aria-hidden="true"></span>
+            Hyderabad, Telangana • Full-Stack Software Engineer (AI Applications)
+          </p>
+
+          <h1 id="heroH1">
+            <span class="hero-word">Pakki</span>
+            <span class="hero-word">Nithish</span><br>
+
+            <span class="hero-word">Building</span>
+            <span class="hero-word">Production-Ready</span><br>
+
+            <span class="hero-word">AI</span>
+            <span class="hero-word">Software</span>
+            <span class="hero-word">Systems</span>
+          </h1>
+
+          <p class="lede" id="heroLede">
+            Full-Stack Software Engineer specializing in AI-powered web applications built with Next.js, FastAPI,
+            PostgreSQL, and Azure AI Foundry. Experienced in developing production-oriented recruitment systems
+            featuring intelligent resume parsing, semantic search, RBAC security, and scalable backend architecture.
+          </p>
+
+          <div class="hero-ctas" id="heroCtas">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="Pakki_Nithish_Resume.pdf" class="btn btn-ghost" download>Download Résumé</a>
           </div>
-          <div>
-            <h3>Full Stack Developer Intern</h3>
-            <ul>
-              <li>Designed and deployed a full-stack recruitment platform (Next.js, FastAPI) streamlining end-to-end hiring workflows, reducing manual recruiter effort.</li>
-              <li>Built an AI Copilot for semantic resume screening using LLMs and OpenSearch, enabling recruiters to surface qualified candidates faster than keyword search.</li>
-              <li>Integrated Azure AI Foundry models to power generative AI features across the platform, including AI-assisted candidate matching and workflow automation.</li>
-              <li>Designed real-time hiring dashboards transforming PostgreSQL data into actionable insights using LLMs, giving stakeholders instant pipeline visibility.</li>
-              <li>Implemented secure RBAC with JWT authentication and multi-factor authentication, safeguarding sensitive candidate data.</li>
-              <li>Engineered asynchronous background workflows in FastAPI to automate reliable email notifications across the hiring pipeline.</li>
-            </ul>
-            <div class="p-links" style="margin-top:16px;">
-              <a class="btn btn-ghost btn-small" href="http://ai-recruitment-platform.centralindia.cloudapp.azure.com/login" target="_blank" rel="noopener noreferrer">Live demo <span class="sr-only">(opens in new tab)</span></a>
+
+          <div class="hero-meta" id="heroMeta">
+
+            <div>
+              <strong>Current Role</strong>
+              Full-Stack Software Engineer Intern
             </div>
+
+            <div>
+              <strong>Flagship Project</strong>
+              AI Recruitment Platform
+            </div>
+
+            <div>
+              <strong>Education</strong>
+              B.Tech ECE • CGPA 9.44/10
+            </div>
+
           </div>
+        </div>
+
+        <!-- Keep your existing animated visual exactly as it is -->
+        <div class="hero-visual" id="heroVisual" aria-hidden="true">
+          <div class="fallback-img" id="heroFallback">
+            <!-- Keep your existing SVG / Three.js canvas unchanged -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ 1. SUMMARY ============ -->
+    <section id="summary" data-section>
+      <div class="wrap about-grid">
+        <div class="avatar-block reveal">
+          <div class="avatar" id="avatarBox">
+            <img src="headshot.jpg" alt="Portrait of Pakki Nithish" width="578" height="767" loading="lazy">
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">Summary</p>
+          <h2 style="margin-bottom:var(--space-3);">Professional Summary</h2>
+          <div class="about-copy reveal">
+            <p>Electronics and Communication Engineering student with strong foundations in Data Structures, Algorithms,
+              Object-Oriented Programming, and Software Development. Experienced in building scalable applications using
+              React.js, Node.js, Next.js, FastAPI, and PostgreSQL, with hands-on experience integrating Generative AI
+              and Azure AI Foundry models into production-oriented applications. Passionate about solving complex
+              engineering problems and building efficient AI-powered software systems.</p>
+          </div>
+          <ul class="approach-list reveal">
+            <li>
+              <div>
+                <h4>Full-Stack Architecture</h4>
+                <p>Comfortable owning software from database schema design up to responsive client interfaces using
+                  React.js, Next.js, Node.js, FastAPI, and PostgreSQL.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Generative AI &amp; Cloud Integration</h4>
+                <p>Practical experience deploying Azure AI Foundry models, building semantic search copilots with LLMs
+                  and OpenSearch for real-world automation.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Engineering Fundamentals</h4>
+                <p>Grounding in Data Structures, Algorithms, and Object-Oriented Programming applied to structured,
+                  maintainable, and reliable production code.</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ============ 3. TECHNICAL SKILLS ============ -->
-  <section id="skills" data-section>
-    <div class="wrap">
-      <div class="skills-header reveal">
-        <span class="pill-badge">Technical Stack</span>
-        <h2>Technical Skills</h2>
-        <p>Core competencies, programming languages, frameworks, cloud platforms, and developer tooling.</p>
-      </div>
-      <div class="skills-grid-v2">
-        <div class="skill-card reveal">
-          <h3 class="skill-card__title">Programming Languages</h3>
-          <div class="skill-tags">
-            <span class="tag">C</span>
-            <span class="tag">Java</span>
-            <span class="tag">Python</span>
-            <span class="tag">JavaScript</span>
-          </div>
+    <!-- ============ 2. PROFESSIONAL EXPERIENCE ============ -->
+    <section id="experience" data-section>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Professional Experience</h2>
+          <p>Production engineering work, real-world deployments, and company impact.</p>
         </div>
-
-        <div class="skill-card reveal">
-          <h3 class="skill-card__title">Core Computer Science</h3>
-          <div class="skill-tags">
-            <span class="tag">Data Structures &amp; Algorithms</span>
-            <span class="tag">Object-Oriented Programming</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <h3 class="skill-card__title">AI &amp; Generative AI</h3>
-          <div class="skill-tags">
-            <span class="tag">Generative AI Fundamentals</span>
-            <span class="tag">Large Language Models (LLMs)</span>
-            <span class="tag">AI Model Integration</span>
-            <span class="tag">Semantic Search</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <h3 class="skill-card__title">Microsoft Azure</h3>
-          <div class="skill-tags">
-            <span class="tag">Azure AI Foundry</span>
-            <span class="tag">Azure AI Foundry Models</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <h3 class="skill-card__title">Backend Development</h3>
-          <div class="skill-tags">
-            <span class="tag">FastAPI</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">Express.js</span>
-            <span class="tag">REST APIs</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <h3 class="skill-card__title">Frontend Development</h3>
-          <div class="skill-tags">
-            <span class="tag">React.js</span>
-            <span class="tag">Next.js</span>
-            <span class="tag">HTML5</span>
-            <span class="tag">CSS3</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <h3 class="skill-card__title">Databases</h3>
-          <div class="skill-tags">
-            <span class="tag">PostgreSQL</span>
-            <span class="tag">MongoDB</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <h3 class="skill-card__title">Tools</h3>
-          <div class="skill-tags">
-            <span class="tag">Git</span>
-            <span class="tag">GitHub</span>
-            <span class="tag">VS Code</span>
-            <span class="tag">Antigravity</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 4. PROJECTS ============ -->
-  <section id="projects" data-section>
-    <div class="wrap">
-      <div class="products-header reveal">
-        <span class="pill-badge">Featured Projects</span>
-        <h2>Projects</h2>
-        <p>Each project is built end to end — from database schema and API design to a polished, deployed interface. Here's the work that represents my engineering approach.</p>
-      </div>
-
-      <div class="products-sequence">
-        <div class="products-line" aria-hidden="true"><div class="products-line__fill" id="productsLineFill"></div></div>
-
-        <!-- Project 1: Gen AI Job Preparation Web Application (pro1.png) -->
-        <article class="product-item reveal" data-product="1">
-          <div class="product-item__marker" aria-hidden="true">
-            <span class="product-num">01</span>
-            <span class="product-dot"></span>
-          </div>
-          <div class="product-item__content">
-            <div class="product-item__text">
-              <p class="product-item__role">Tech Stack: MERN Stack</p>
-              <h3 class="product-item__title">Gen AI Job Preparation Web Application</h3>
-              <p class="product-item__desc">Developed a full-stack web application using the MERN stack, helping users prepare for job interviews through Generative AI features.</p>
-              <ul class="product-item__bullets" style="margin:0 0 var(--space-3);padding-left:18px;display:grid;gap:6px;font-size:14px;color:var(--text-2);list-style:disc;">
-                <li>Integrated AI-based tools for resume building, interview question generation, and personalized feedback.</li>
-                <li>Designed responsive, reusable UI components, enhancing user experience across devices.</li>
-                <li>Built and managed backend services using Node.js, Express.js, and MongoDB, ensuring reliable data handling and API performance.</li>
+        <div class="timeline" id="expTimeline">
+          <div class="t-item">
+            <div>
+              <p class="t-date">05/2026</p>
+              <p class="t-org">iSpatial Techno Solutions · Hyderabad</p>
+            </div>
+            <div>
+              <h3>Full Stack Developer Intern</h3>
+              <ul>
+                <li>Designed and deployed a full-stack recruitment platform (Next.js, FastAPI) streamlining end-to-end
+                  hiring workflows, reducing manual recruiter effort.</li>
+                <li>Built an AI Copilot for semantic resume screening using LLMs and OpenSearch, enabling recruiters to
+                  surface qualified candidates faster than keyword search.</li>
+                <li>Integrated Azure AI Foundry models to power generative AI features across the platform, including
+                  AI-assisted candidate matching and workflow automation.</li>
+                <li>Designed real-time hiring dashboards transforming PostgreSQL data into actionable insights using
+                  LLMs, giving stakeholders instant pipeline visibility.</li>
+                <li>Implemented secure RBAC with JWT authentication and multi-factor authentication, safeguarding
+                  sensitive candidate data.</li>
+                <li>Engineered asynchronous background workflows in FastAPI to automate reliable email notifications
+                  across the hiring pipeline.</li>
               </ul>
-              <div class="product-item__tech">
-                <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">MongoDB</span>
-              </div>
-              <div class="product-item__links">
-                <a class="btn btn-primary btn-small" href="https://gen-ai-job-preparation-web-application-vjiy.onrender.com/" target="_blank" rel="noopener noreferrer">Live demo <span class="sr-only">(opens in new tab)</span></a>
-                <a class="btn btn-ghost btn-small" href="https://github.com/PakkiNithish/-Gen-AI-Job-Preparation-Web-Application.git" target="_blank" rel="noopener noreferrer">GitHub <span class="sr-only">(opens in new tab)</span></a>
+              <div class="p-links" style="margin-top:16px;">
+                <a class="btn btn-ghost btn-small"
+                  href="http://ai-recruitment-platform.centralindia.cloudapp.azure.com/login" target="_blank"
+                  rel="noopener noreferrer">Live demo <span class="sr-only">(opens in new tab)</span></a>
               </div>
             </div>
-            <a class="product-item__visual" href="https://gen-ai-job-preparation-web-application-vjiy.onrender.com/" target="_blank" rel="noopener noreferrer" title="View Gen AI Job Preparation Web Application live demo">
-              <img src="pro1.png" alt="Gen AI Job Preparation Web Application Preview" width="1366" height="645" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. TECHNICAL SKILLS ============ -->
+    <section id="skills" data-section>
+      <div class="wrap">
+        <div class="skills-header reveal">
+          <span class="pill-badge">Technical Stack</span>
+          <h2>Technical Skills</h2>
+          <p>Core competencies, programming languages, frameworks, cloud platforms, and developer tooling.</p>
+        </div>
+        <div class="skills-grid-v2">
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="tag">C</span>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">Core Computer Science</h3>
+            <div class="skill-tags">
+              <span class="tag">Data Structures &amp; Algorithms</span>
+              <span class="tag">Object-Oriented Programming</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">AI &amp; Generative AI</h3>
+            <div class="skill-tags">
+              <span class="tag">Generative AI Fundamentals</span>
+              <span class="tag">Large Language Models (LLMs)</span>
+              <span class="tag">AI Model Integration</span>
+              <span class="tag">Semantic Search</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">Microsoft Azure</h3>
+            <div class="skill-tags">
+              <span class="tag">Azure AI Foundry</span>
+              <span class="tag">Azure AI Foundry Models</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">Backend Development</h3>
+            <div class="skill-tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">Frontend Development</h3>
+            <div class="skill-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">Databases</h3>
+            <div class="skill-tags">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">Tools</h3>
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Antigravity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. PROJECTS ============ -->
+    <section id="projects" data-section>
+      <div class="wrap">
+        <div class="products-header reveal">
+          <span class="pill-badge">Featured Projects</span>
+          <h2>Projects</h2>
+          <p>Each project is built end to end — from database schema and API design to a polished, deployed interface.
+            Here's the work that represents my engineering approach.</p>
+        </div>
+
+        <div class="products-sequence">
+          <div class="products-line" aria-hidden="true">
+            <div class="products-line__fill" id="productsLineFill"></div>
+          </div>
+
+          <!-- Project 1: Gen AI Job Preparation Web Application (pro1.png) -->
+          <article class="product-item reveal" data-product="1">
+            <div class="product-item__marker" aria-hidden="true">
+              <span class="product-num">01</span>
+              <span class="product-dot"></span>
+            </div>
+            <div class="product-item__content">
+              <div class="product-item__text">
+                <p class="product-item__role">Tech Stack: MERN Stack</p>
+                <h3 class="product-item__title">Gen AI Job Preparation Web Application</h3>
+                <p class="product-item__desc">Developed a full-stack web application using the MERN stack, helping users
+                  prepare for job interviews through Generative AI features.</p>
+                <ul class="product-item__bullets"
+                  style="margin:0 0 var(--space-3);padding-left:18px;display:grid;gap:6px;font-size:14px;color:var(--text-2);list-style:disc;">
+                  <li>Integrated AI-based tools for resume building, interview question generation, and personalized
+                    feedback.</li>
+                  <li>Designed responsive, reusable UI components, enhancing user experience across devices.</li>
+                  <li>Built and managed backend services using Node.js, Express.js, and MongoDB, ensuring reliable data
+                    handling and API performance.</li>
+                </ul>
+                <div class="product-item__tech">
+                  <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express.js</span><span
+                    class="tag">MongoDB</span>
+                </div>
+                <div class="product-item__links">
+                  <a class="btn btn-primary btn-small"
+                    href="https://gen-ai-job-preparation-web-application-vjiy.onrender.com/" target="_blank"
+                    rel="noopener noreferrer">Live demo <span class="sr-only">(opens in new tab)</span></a>
+                  <a class="btn btn-ghost btn-small"
+                    href="https://github.com/PakkiNithish/-Gen-AI-Job-Preparation-Web-Application.git" target="_blank"
+                    rel="noopener noreferrer">GitHub <span class="sr-only">(opens in new tab)</span></a>
+                </div>
+              </div>
+              <a class="product-item__visual" href="https://gen-ai-job-preparation-web-application-vjiy.onrender.com/"
+                target="_blank" rel="noopener noreferrer" title="View Gen AI Job Preparation Web Application live demo">
+                <img src="pro1.png" alt="Gen AI Job Preparation Web Application Preview" width="1366" height="645"
+                  loading="lazy">
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Netflix – Clone (pro2.png) -->
+          <article class="product-item reveal" data-product="2">
+            <div class="product-item__marker" aria-hidden="true">
+              <span class="product-num">02</span>
+              <span class="product-dot"></span>
+            </div>
+            <div class="product-item__content">
+              <div class="product-item__text">
+                <p class="product-item__role">Tech Stack: React, Firebase</p>
+                <h3 class="product-item__title">Netflix – Clone</h3>
+                <p class="product-item__desc">Built a Netflix-clone web application using React for the front-end UI and
+                  Firebase for user authentication.</p>
+                <ul class="product-item__bullets"
+                  style="margin:0 0 var(--space-3);padding-left:18px;display:grid;gap:6px;font-size:14px;color:var(--text-2);list-style:disc;">
+                  <li>Integrated movie APIs to fetch and dynamically display real-time content.</li>
+                  <li>Designed a responsive and interactive UI to deliver a seamless user experience.</li>
+                  <li>Managed version control and collaborative development using Git and GitHub.</li>
+                </ul>
+                <div class="product-item__tech">
+                  <span class="tag">React</span><span class="tag">Firebase</span><span class="tag">Movie APIs</span>
+                </div>
+                <div class="product-item__links">
+                  <a class="btn btn-primary btn-small" href="https://nf-clone-app.vercel.app/" target="_blank"
+                    rel="noopener noreferrer">Live demo <span class="sr-only">(opens in new tab)</span></a>
+                  <a class="btn btn-ghost btn-small" href="https://github.com/PakkiNithish/Netflix-clone.git"
+                    target="_blank" rel="noopener noreferrer">GitHub <span class="sr-only">(opens in new tab)</span></a>
+                </div>
+              </div>
+              <a class="product-item__visual" href="https://nf-clone-app.vercel.app/" target="_blank"
+                rel="noopener noreferrer" title="View Netflix – Clone live demo">
+                <img src="pro2.png" alt="Netflix – Clone Preview" width="1366" height="645" loading="lazy">
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Movie Recommendation Web App (pro3.png) -->
+          <article class="product-item reveal" data-product="3">
+            <div class="product-item__marker" aria-hidden="true">
+              <span class="product-num">03</span>
+              <span class="product-dot"></span>
+            </div>
+            <div class="product-item__content">
+              <div class="product-item__text">
+                <p class="product-item__role">Tech Stack: HTML, CSS, JavaScript, REST APIs</p>
+                <h3 class="product-item__title">Movie Recommendation Web App</h3>
+                <p class="product-item__desc">Developed a dynamic movie recommendation web application using HTML, CSS,
+                  and JavaScript, integrated with external REST APIs.</p>
+                <ul class="product-item__bullets"
+                  style="margin:0 0 var(--space-3);padding-left:18px;display:grid;gap:6px;font-size:14px;color:var(--text-2);list-style:disc;">
+                  <li>Implemented API integration to fetch and display real-time movie data.</li>
+                  <li>Designed an interactive UI with dynamic content rendering using JavaScript.</li>
+                  <li>Managed source code and collaboration using Git and GitHub.</li>
+                </ul>
+                <div class="product-item__tech">
+                  <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span
+                    class="tag">REST APIs</span>
+                </div>
+                <div class="product-item__links">
+                  <a class="btn btn-primary btn-small" href="https://telugu-cine-advisor.vercel.app/" target="_blank"
+                    rel="noopener noreferrer">Live demo <span class="sr-only">(opens in new tab)</span></a>
+                  <a class="btn btn-ghost btn-small"
+                    href="https://github.com/PakkiNithish/Telugu-Cine-Advisor_Project.git" target="_blank"
+                    rel="noopener noreferrer">GitHub <span class="sr-only">(opens in new tab)</span></a>
+                </div>
+              </div>
+              <a class="product-item__visual" href="https://telugu-cine-advisor.vercel.app/" target="_blank"
+                rel="noopener noreferrer" title="View Movie Recommendation Web App live demo">
+                <img src="pro3.png" alt="Movie Recommendation Web App Preview" width="1366" height="645" loading="lazy">
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. EDUCATION ============ -->
+    <section id="education" data-section>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Education</h2>
+          <p>Academic foundations in electronics, computer science fundamentals, and engineering mathematics.</p>
+        </div>
+        <div class="timeline" id="eduTimeline">
+          <div class="t-item">
+            <div>
+              <p class="t-date">2023 – 2027</p>
+              <p class="t-org">K L University · Hyderabad, Telangana</p>
+            </div>
+            <div>
+              <h3>B. Tech - Electronics and Communication Engineering</h3>
+              <p style="font-size:15px;color:var(--text-2);">CGPA: 9.44 / 10</p>
+            </div>
+          </div>
+          <div class="t-item">
+            <div>
+              <p class="t-date">2021 – 2023</p>
+              <p class="t-org">Sri Chaitanya Junior Kalasala · Hyderabad, Telangana</p>
+            </div>
+            <div>
+              <h3>Intermediate - MPC</h3>
+              <p style="font-size:15px;color:var(--text-2);">Percentage: 84.1%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. TRAININGS / CERTIFICATIONS ============ -->
+    <section id="certifications" data-section>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Certifications</p>
+          <h2>Trainings / Certifications</h2>
+          <p>Industry-recognized credentials verifying expertise in cloud architecture and modern database engineering.
+          </p>
+        </div>
+        <div class="cert-grid reveal">
+          <div class="cert-card">
+            <div class="cert-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <div class="cert-card__body">
+              <div class="cert-card__badge"><span class="dot2"></span>Verified Credential</div>
+              <h3 class="cert-card__title">MongoDB Associate Developer</h3>
+              <p class="cert-card__issuer">MongoDB</p>
+              <p class="cert-card__desc">Proficiency in MongoDB document modeling, indexing strategies, aggregation
+                pipelines, and CRUD operations for production applications.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+              </svg>
+            </div>
+            <div class="cert-card__body">
+              <div class="cert-card__badge"><span class="dot2"></span>Verified Credential</div>
+              <h3 class="cert-card__title">AWS Certified Cloud Practitioner</h3>
+              <p class="cert-card__issuer">AWS</p>
+              <p class="cert-card__desc">Comprehensive foundation in AWS cloud infrastructure, security and compliance,
+                compute services, storage, networking, and cloud economics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. CONTACT ============ -->
+    <section id="contact" data-section>
+      <div class="wrap contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's talk</h2>
+          <p style="margin-top:var(--space-2);font-size:17px;max-width:44ch;">Open to full stack developer roles. The
+            fastest way to reach me is email.</p>
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:nithishpakki18@gmail.com">
+              <div class="cl-info" style="display:flex;flex-direction:column;gap:4px;">
+                <span class="cl-label"
+                  style="display:block;font-size:12px;color:var(--text-2);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.04em;">Email</span>
+                <span class="cl-value"
+                  style="display:block;font-size:15px;font-weight:600;color:var(--text-1);">nithishpakki18@gmail.com</span>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </a>
+            <a class="contact-link" href="tel:9392707154">
+              <div class="cl-info" style="display:flex;flex-direction:column;gap:4px;">
+                <span class="cl-label"
+                  style="display:block;font-size:12px;color:var(--text-2);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.04em;">Phone</span>
+                <span class="cl-value"
+                  style="display:block;font-size:15px;font-weight:600;color:var(--text-1);">9392707154</span>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </a>
+            <a class="contact-link" href="http://www.linkedin.com/in/pakki-nithish" target="_blank"
+              rel="noopener noreferrer">
+              <div class="cl-info" style="display:flex;flex-direction:column;gap:4px;">
+                <span class="cl-label"
+                  style="display:block;font-size:12px;color:var(--text-2);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.04em;">LinkedIn</span>
+                <span class="cl-value" style="display:block;font-size:15px;font-weight:600;color:var(--text-1);">Pakki
+                  Nithish</span>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </a>
+            <a class="contact-link" href="https://github.com/PakkiNithish" target="_blank" rel="noopener noreferrer">
+              <div class="cl-info" style="display:flex;flex-direction:column;gap:4px;">
+                <span class="cl-label"
+                  style="display:block;font-size:12px;color:var(--text-2);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.04em;">GitHub</span>
+                <span class="cl-value" style="display:block;font-size:15px;font-weight:600;color:var(--text-1);">Pakki
+                  Nithish</span>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
             </a>
           </div>
-        </article>
+        </div>
 
-        <!-- Project 2: Netflix – Clone (pro2.png) -->
-        <article class="product-item reveal" data-product="2">
-          <div class="product-item__marker" aria-hidden="true">
-            <span class="product-num">02</span>
-            <span class="product-dot"></span>
-          </div>
-          <div class="product-item__content">
-            <div class="product-item__text">
-              <p class="product-item__role">Tech Stack: React, Firebase</p>
-              <h3 class="product-item__title">Netflix – Clone</h3>
-              <p class="product-item__desc">Built a Netflix-clone web application using React for the front-end UI and Firebase for user authentication.</p>
-              <ul class="product-item__bullets" style="margin:0 0 var(--space-3);padding-left:18px;display:grid;gap:6px;font-size:14px;color:var(--text-2);list-style:disc;">
-                <li>Integrated movie APIs to fetch and dynamically display real-time content.</li>
-                <li>Designed a responsive and interactive UI to deliver a seamless user experience.</li>
-                <li>Managed version control and collaborative development using Git and GitHub.</li>
-              </ul>
-              <div class="product-item__tech">
-                <span class="tag">React</span><span class="tag">Firebase</span><span class="tag">Movie APIs</span>
-              </div>
-              <div class="product-item__links">
-                <a class="btn btn-primary btn-small" href="https://nf-clone-app.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo <span class="sr-only">(opens in new tab)</span></a>
-                <a class="btn btn-ghost btn-small" href="https://github.com/PakkiNithish/Netflix-clone.git" target="_blank" rel="noopener noreferrer">GitHub <span class="sr-only">(opens in new tab)</span></a>
-              </div>
+        <div class="reveal">
+          <form id="contactForm" novalidate aria-describedby="formNote">
+            <p id="formNote" style="font-size:13px;color:var(--text-2);margin-bottom:var(--space-3);">This opens a
+              prefilled email in your mail app. Nothing is sent from this page directly.</p>
+            <div class="hp-field" aria-hidden="true">
+              <label for="companySite">Leave this field empty</label>
+              <input type="text" id="companySite" name="companySite" tabindex="-1" autocomplete="off">
             </div>
-            <a class="product-item__visual" href="https://nf-clone-app.vercel.app/" target="_blank" rel="noopener noreferrer" title="View Netflix – Clone live demo">
-              <img src="pro2.png" alt="Netflix – Clone Preview" width="1366" height="645" loading="lazy">
-            </a>
-          </div>
-        </article>
-
-        <!-- Project 3: Movie Recommendation Web App (pro3.png) -->
-        <article class="product-item reveal" data-product="3">
-          <div class="product-item__marker" aria-hidden="true">
-            <span class="product-num">03</span>
-            <span class="product-dot"></span>
-          </div>
-          <div class="product-item__content">
-            <div class="product-item__text">
-              <p class="product-item__role">Tech Stack: HTML, CSS, JavaScript, REST APIs</p>
-              <h3 class="product-item__title">Movie Recommendation Web App</h3>
-              <p class="product-item__desc">Developed a dynamic movie recommendation web application using HTML, CSS, and JavaScript, integrated with external REST APIs.</p>
-              <ul class="product-item__bullets" style="margin:0 0 var(--space-3);padding-left:18px;display:grid;gap:6px;font-size:14px;color:var(--text-2);list-style:disc;">
-                <li>Implemented API integration to fetch and display real-time movie data.</li>
-                <li>Designed an interactive UI with dynamic content rendering using JavaScript.</li>
-                <li>Managed source code and collaboration using Git and GitHub.</li>
-              </ul>
-              <div class="product-item__tech">
-                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">REST APIs</span>
-              </div>
-              <div class="product-item__links">
-                <a class="btn btn-primary btn-small" href="https://telugu-cine-advisor.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo <span class="sr-only">(opens in new tab)</span></a>
-                <a class="btn btn-ghost btn-small" href="https://github.com/PakkiNithish/Telugu-Cine-Advisor_Project.git" target="_blank" rel="noopener noreferrer">GitHub <span class="sr-only">(opens in new tab)</span></a>
-              </div>
+            <div class="form-field">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="name" required autocomplete="name">
+              <span class="field-error" id="err-name"></span>
             </div>
-            <a class="product-item__visual" href="https://telugu-cine-advisor.vercel.app/" target="_blank" rel="noopener noreferrer" title="View Movie Recommendation Web App live demo">
-              <img src="pro3.png" alt="Movie Recommendation Web App Preview" width="1366" height="645" loading="lazy">
-            </a>
-          </div>
-        </article>
+            <div class="form-field">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" required autocomplete="email">
+              <span class="field-error" id="err-email"></span>
+            </div>
+            <div class="form-field">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" required></textarea>
+              <span class="field-error" id="err-message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <div class="form-status" id="formStatus" role="status"></div>
+          </form>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ============ 5. EDUCATION ============ -->
-  <section id="education" data-section>
+  </main>
+
+  <footer>
     <div class="wrap">
-      <div class="section-head reveal">
-        <p class="eyebrow">Education</p>
-        <h2>Education</h2>
-        <p>Academic foundations in electronics, computer science fundamentals, and engineering mathematics.</p>
-      </div>
-      <div class="timeline" id="eduTimeline">
-        <div class="t-item">
-          <div>
-            <p class="t-date">2023 – 2027</p>
-            <p class="t-org">K L University · Hyderabad, Telangana</p>
-          </div>
-          <div>
-            <h3>B. Tech - Electronics and Communication Engineering</h3>
-            <p style="font-size:15px;color:var(--text-2);">CGPA: 9.44 / 10</p>
-          </div>
-        </div>
-        <div class="t-item">
-          <div>
-            <p class="t-date">2021 – 2023</p>
-            <p class="t-org">Sri Chaitanya Junior Kalasala · Hyderabad, Telangana</p>
-          </div>
-          <div>
-            <h3>Intermediate - MPC</h3>
-            <p style="font-size:15px;color:var(--text-2);">Percentage: 84.1%</p>
-          </div>
-        </div>
+      <p>© <span id="year"></span> Pakki Nithish. Designed and built from scratch.</p>
+      <div class="foot-links">
+        <a href="https://github.com/PakkiNithish" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="http://www.linkedin.com/in/pakki-nithish" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#home">Back to top</a>
       </div>
     </div>
-  </section>
+  </footer>
 
-  <!-- ============ 6. TRAININGS / CERTIFICATIONS ============ -->
-  <section id="certifications" data-section>
-    <div class="wrap">
-      <div class="section-head reveal">
-        <p class="eyebrow">Certifications</p>
-        <h2>Trainings / Certifications</h2>
-        <p>Industry-recognized credentials verifying expertise in cloud architecture and modern database engineering.</p>
-      </div>
-      <div class="cert-grid reveal">
-        <div class="cert-card">
-          <div class="cert-card__icon" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
-              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-            </svg>
-          </div>
-          <div class="cert-card__body">
-            <div class="cert-card__badge"><span class="dot2"></span>Verified Credential</div>
-            <h3 class="cert-card__title">MongoDB Associate Developer</h3>
-            <p class="cert-card__issuer">MongoDB</p>
-            <p class="cert-card__desc">Proficiency in MongoDB document modeling, indexing strategies, aggregation pipelines, and CRUD operations for production applications.</p>
-          </div>
-        </div>
-
-        <div class="cert-card">
-          <div class="cert-card__icon" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
-            </svg>
-          </div>
-          <div class="cert-card__body">
-            <div class="cert-card__badge"><span class="dot2"></span>Verified Credential</div>
-            <h3 class="cert-card__title">AWS Certified Cloud Practitioner</h3>
-            <p class="cert-card__issuer">AWS</p>
-            <p class="cert-card__desc">Comprehensive foundation in AWS cloud infrastructure, security and compliance, compute services, storage, networking, and cloud economics.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 7. CONTACT ============ -->
-  <section id="contact" data-section>
-    <div class="wrap contact-grid">
-      <div class="reveal">
-        <p class="eyebrow">Contact</p>
-        <h2>Let's talk</h2>
-        <p style="margin-top:var(--space-2);font-size:17px;max-width:44ch;">Open to full stack developer roles. The fastest way to reach me is email.</p>
-        <div class="contact-links">
-          <a class="contact-link" href="mailto:nithishpakki18@gmail.com">
-            <div class="cl-info" style="display:flex;flex-direction:column;gap:4px;">
-              <span class="cl-label" style="display:block;font-size:12px;color:var(--text-2);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.04em;">Email</span>
-              <span class="cl-value" style="display:block;font-size:15px;font-weight:600;color:var(--text-1);">nithishpakki18@gmail.com</span>
-            </div>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
-          </a>
-          <a class="contact-link" href="tel:9392707154">
-            <div class="cl-info" style="display:flex;flex-direction:column;gap:4px;">
-              <span class="cl-label" style="display:block;font-size:12px;color:var(--text-2);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.04em;">Phone</span>
-              <span class="cl-value" style="display:block;font-size:15px;font-weight:600;color:var(--text-1);">9392707154</span>
-            </div>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
-          </a>
-          <a class="contact-link" href="http://www.linkedin.com/in/pakki-nithish" target="_blank" rel="noopener noreferrer">
-            <div class="cl-info" style="display:flex;flex-direction:column;gap:4px;">
-              <span class="cl-label" style="display:block;font-size:12px;color:var(--text-2);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.04em;">LinkedIn</span>
-              <span class="cl-value" style="display:block;font-size:15px;font-weight:600;color:var(--text-1);">Pakki Nithish</span>
-            </div>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
-          </a>
-          <a class="contact-link" href="https://github.com/PakkiNithish" target="_blank" rel="noopener noreferrer">
-            <div class="cl-info" style="display:flex;flex-direction:column;gap:4px;">
-              <span class="cl-label" style="display:block;font-size:12px;color:var(--text-2);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.04em;">GitHub</span>
-              <span class="cl-value" style="display:block;font-size:15px;font-weight:600;color:var(--text-1);">Pakki Nithish</span>
-            </div>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
-          </a>
-        </div>
-      </div>
-
-      <div class="reveal">
-        <form id="contactForm" novalidate aria-describedby="formNote">
-          <p id="formNote" style="font-size:13px;color:var(--text-2);margin-bottom:var(--space-3);">This opens a prefilled email in your mail app. Nothing is sent from this page directly.</p>
-          <div class="hp-field" aria-hidden="true">
-            <label for="companySite">Leave this field empty</label>
-            <input type="text" id="companySite" name="companySite" tabindex="-1" autocomplete="off">
-          </div>
-          <div class="form-field">
-            <label for="cf-name">Name</label>
-            <input type="text" id="cf-name" name="name" required autocomplete="name">
-            <span class="field-error" id="err-name"></span>
-          </div>
-          <div class="form-field">
-            <label for="cf-email">Email</label>
-            <input type="email" id="cf-email" name="email" required autocomplete="email">
-            <span class="field-error" id="err-email"></span>
-          </div>
-          <div class="form-field">
-            <label for="cf-message">Message</label>
-            <textarea id="cf-message" name="message" required></textarea>
-            <span class="field-error" id="err-message"></span>
-          </div>
-          <button type="submit" class="btn btn-primary">Send message</button>
-          <div class="form-status" id="formStatus" role="status"></div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer>
-  <div class="wrap">
-    <p>© <span id="year"></span> Pakki Nithish. Designed and built from scratch.</p>
-    <div class="foot-links">
-      <a href="https://github.com/PakkiNithish" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="http://www.linkedin.com/in/pakki-nithish" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="#home">Back to top</a>
-    </div>
-  </div>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
-<script src="script.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
+
 </html>
